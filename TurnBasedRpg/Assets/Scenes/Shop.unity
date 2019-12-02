@@ -4147,11 +4147,11 @@ MonoBehaviour:
   ItemsForSale:
   - Health Potion
   - Iron Armor
-  - 
   - Leather Armor
   - Mana Potion
+  - Iron Sword
   - 
-  - Leather Armor
+  - 
   - 
   - 
   - 
@@ -4556,6 +4556,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
+        type: 3}
+      propertyPath: areaTransitionName
+      value: Shop
+      objectReference: {fileID: 0}
     - target: {fileID: 5735540974857299970, guid: 422b40118fda4c04fb7190d320940ed7,
         type: 3}
       propertyPath: m_Offset.y
@@ -4575,11 +4580,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.x
       value: 4.026186
-      objectReference: {fileID: 0}
-    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
-        type: 3}
-      propertyPath: areaTransitionName
-      value: Shop
       objectReference: {fileID: 0}
     - target: {fileID: 1387715111, guid: 422b40118fda4c04fb7190d320940ed7, type: 3}
       propertyPath: m_LocalPosition.x

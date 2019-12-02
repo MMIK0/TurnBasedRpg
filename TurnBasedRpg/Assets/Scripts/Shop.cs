@@ -109,9 +109,11 @@ public class Shop : MonoBehaviour
     {
         if (buyItem == null)
         {
-            buyItemName.text = "";
-            buyItemDesc.text = "";
-            buyItemValue.text = "Cost: " + 0;
+            selectedItemQuantity--;
+            if (selectedItemQuantity <= 0)
+            {
+                selectedItem = null;
+            }
         }
         else
         {
@@ -120,6 +122,7 @@ public class Shop : MonoBehaviour
             buyItemDesc.text = selectedItem.description;
             buyItemValue.text = "Value " + selectedItem.value + "G";
         }
+        
     }
     public void SelectSellItem(Item sellItem, int sellItemQuantity)
     {
@@ -139,6 +142,7 @@ public class Shop : MonoBehaviour
         {
             if (GameManager.instance.currentGold >= selectedItem.value)
             {
+
                 GameManager.instance.currentGold -= selectedItem.value;
                 GameManager.instance.AddItem(selectedItem.itemName);
 

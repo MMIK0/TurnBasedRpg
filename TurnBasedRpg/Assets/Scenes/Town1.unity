@@ -220,6 +220,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
+        type: 3}
+      propertyPath: areaToLoad
+      value: Forest
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
+        type: 3}
+      propertyPath: areaTransitionName
+      value: Town1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
+        type: 3}
+      propertyPath: waitToLoad
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5735540974857299970, guid: 422b40118fda4c04fb7190d320940ed7,
         type: 3}
       propertyPath: m_Offset.x
@@ -239,21 +254,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.35281932
-      objectReference: {fileID: 0}
-    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
-        type: 3}
-      propertyPath: areaToLoad
-      value: Forest
-      objectReference: {fileID: 0}
-    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
-        type: 3}
-      propertyPath: areaTransitionName
-      value: Town1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
-        type: 3}
-      propertyPath: waitToLoad
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1387715111, guid: 422b40118fda4c04fb7190d320940ed7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25849,7 +25849,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1286363835
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 4877709730863859454, guid: fb8cc55af4b7a034584793949fd90500,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -30999,7 +30999,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1286363835
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1596342142439857335, guid: fb8cc55af4b7a034584793949fd90500,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

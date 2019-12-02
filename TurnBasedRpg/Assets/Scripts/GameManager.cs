@@ -50,7 +50,10 @@ public class GameManager : MonoBehaviour
         {
             PlayerController.instance.canMove = true;
         }
-
+        if (battleActive == true)
+        {
+            GameMenu.instance.theMenu.SetActive(false);
+        }
         foreach (var item in collectedItemList)
         {
             if(collectedItemList.Count != 0)

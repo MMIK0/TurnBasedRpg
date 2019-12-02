@@ -187,6 +187,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
+        type: 3}
+      propertyPath: areaToLoad
+      value: RockyRoad
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
+        type: 3}
+      propertyPath: areaTransitionName
+      value: Dungeon1
+      objectReference: {fileID: 0}
     - target: {fileID: 5735540974857299970, guid: 422b40118fda4c04fb7190d320940ed7,
         type: 3}
       propertyPath: m_Offset.y
@@ -206,16 +216,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.x
       value: 5.3275404
-      objectReference: {fileID: 0}
-    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
-        type: 3}
-      propertyPath: areaToLoad
-      value: RockyRoad
-      objectReference: {fileID: 0}
-    - target: {fileID: 5735540974857299968, guid: 422b40118fda4c04fb7190d320940ed7,
-        type: 3}
-      propertyPath: areaTransitionName
-      value: Dungeon1
       objectReference: {fileID: 0}
     - target: {fileID: 1387715111, guid: 422b40118fda4c04fb7190d320940ed7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9352,6 +9352,13 @@ MonoBehaviour:
     rewardXP: 200
     rewardItems:
     - Mana Potion
+  - enemies:
+    - Eyeball
+    - Skeleton Warrior
+    rewardXP: 500
+    rewardItems:
+    - Iron Sword
+    - Leather Armor
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 0

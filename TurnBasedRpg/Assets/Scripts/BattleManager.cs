@@ -93,12 +93,11 @@ public class BattleManager : MonoBehaviour
             cannotFlee = setCannotFlee;
 
             battleActive = true;
-
             GameManager.instance.battleActive = true;
             transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, transform.position.z);
             battleScene.SetActive(true);
 
-            for(int i = 0; i < playerPositions.Length; i++)
+            for (int i = 0; i < playerPositions.Length; i++)
             {
                 if (GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
                 {
