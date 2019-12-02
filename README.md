@@ -19,6 +19,6 @@
 * Unity
 
 # Screenshots
-<img src="TurnBasedRpg/images/battle.png">
-<img src="TurnBasedRpg/images/shop.png">
-<img src="TurnBasedRpg/images/watertown.png">
+<img src="TurnBasedRpg/Images/battle.png">
+<img src="TurnBasedRpg/Images/shop.png">
+<img src="TurnBasedRpg/Images/watertown.png">
