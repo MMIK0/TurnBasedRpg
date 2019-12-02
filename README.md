@@ -12,7 +12,7 @@
 
 ## Versioning:
 ### Newest version
-* [Version 1.0.0]()
+* [Version 1.0.0](https://github.com/MMIK0/TurnBasedRpg/releases/tag/v1.0.0)
 
 # Built using
 * Visual Studio Code
